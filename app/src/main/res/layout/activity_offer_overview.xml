@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- this resource belongs to OverviewActivity -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/timeslot_8_30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:paddingTop="16dp"
+            android:textSize="22sp"
+            android:paddingBottom="8dp"/>/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_8_30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/timeslot_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="22sp"
+            android:paddingBottom="8dp"/>/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/timeslot_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="22sp"
+            android:paddingBottom="8dp"/>/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/timeslot_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="22sp"
+            android:paddingBottom="8dp"/>/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/timeslot_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="22sp"
+            android:paddingBottom="8dp"/>/>
+
+        <TextView
+            android:id="@+id/lunch_break"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:paddingBottom="16sp"
+            android:textSize="32sp"/>
+
+        <TextView
+            android:id="@+id/timeslot_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="22sp"
+            android:paddingBottom="8dp"/>/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/timeslot_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="22sp"
+            android:paddingBottom="8dp"/>/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/timeslot_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="22sp"
+            android:paddingBottom="8dp"/>/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal"
+            android:paddingBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/timeslot_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="22sp"
+            android:paddingBottom="8dp"/>/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal"
+            android:paddingBottom="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

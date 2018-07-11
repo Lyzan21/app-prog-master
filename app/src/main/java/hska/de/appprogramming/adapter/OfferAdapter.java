@@ -80,7 +80,6 @@ public class OfferAdapter extends RecyclerView.Adapter<OfferAdapter.ViewHolder> 
 
         ViewHolder vh = new ViewHolder(v);
         return vh;
-
     }
 
     //Here we declare what is shown every time a user scrolls through the list
@@ -89,13 +88,9 @@ public class OfferAdapter extends RecyclerView.Adapter<OfferAdapter.ViewHolder> 
         Offer offer = mContent.get(position);
         holder.bindListener(offer, mListener);
         holder.mTextView.setText(offer.title);
-        //TODO Setting the image programmatically crashes
-        //Drawable resource = holder.v.getResources().getDrawable(R.drawable.ic_launcher_foreground);
-        //holder.mImageView.setImageDrawable(resource);
         int color = holder.v.getResources().getColor(mColors.get(offer.category.ordinal()));
         holder.v.setBackgroundColor(color);
         holder.mImageView.setImageResource(offer.imageResource);
-
     }
 
     @Override

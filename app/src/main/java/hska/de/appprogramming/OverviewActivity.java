@@ -69,7 +69,6 @@ public class OverviewActivity extends Activity {
             //every time a user clicks on an item this method is called by the recycler view adapter
             @Override
             public void onItemClick(Offer offer) {
-                //TODO first implement the parcel methods in Offer class then pass the offer obj to the activity
                 Intent intent = new Intent(OverviewActivity.this, OfferDetailActivity.class);
                 intent = intent.putExtra("room", offer.room.toString());
                 intent = intent.putExtra("teacher", offer.teacher.toString());

@@ -54,8 +54,7 @@ public class OfferDetailActivity extends AppCompatActivity {
 
         //set the back button (currently the button has no action)
         if (getSupportActionBar() != null){
-            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-            //TODO pressing back button should finish the activity
+            getSupportActionBar().setDisplayHomeAsUpEnabled(false);
         }
 
         //initializing the text view objects works a little bit like in JavaScript ;)
@@ -79,7 +78,6 @@ public class OfferDetailActivity extends AppCompatActivity {
         textviewRoomContent.setText(room);
         textviewTime.setText("Uhrzeit:");
         textviewTimeContent.setText(time);
-        imageView.getMaxWidth();
 
         imageView.setImageResource(resource);
     }
